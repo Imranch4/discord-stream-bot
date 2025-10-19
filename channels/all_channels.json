@@ -1,0 +1,74 @@
+{
+  "channels": [
+    {
+      "name": "bbc",
+      "displayName": "BBC World News",
+      "category": "News",
+      "streams": [
+        "http://bbc-stream-primary.com/live",
+        "http://bbc-stream-backup1.com/live",
+        "http://bbc-stream-backup2.com/live"
+      ],
+      "bitrate": 128000,
+      "volume": 1.0,
+      "quality": "HD",
+      "enabled": true
+    },
+    {
+      "name": "cnn",
+      "displayName": "CNN International",
+      "category": "News",
+      "streams": [
+        "http://cnn-stream-primary.com/live",
+        "http://cnn-stream-backup1.com/live", 
+        "http://cnn-stream-backup2.com/live"
+      ],
+      "bitrate": 128000,
+      "volume": 1.0,
+      "quality": "HD",
+      "enabled": true
+    },
+    {
+      "name": "zdf",
+      "displayName": "ZDF HD",
+      "category": "Entertainment",
+      "streams": [
+        "http://zdf-stream-primary.com/live",
+        "http://zdf-stream-backup1.com/live",
+        "http://zdf-stream-backup2.com/live"
+      ],
+      "bitrate": 192000,
+      "volume": 1.0,
+      "quality": "FullHD",
+      "enabled": true
+    },
+    {
+      "name": "bein-sports1",
+      "displayName": "Bein Sports 1",
+      "category": "Sports",
+      "streams": [
+        "http://bein1-stream-primary.com/live",
+        "http://bein1-stream-backup1.com/live",
+        "http://bein1-stream-backup2.com/live"
+      ],
+      "bitrate": 160000,
+      "volume": 1.0,
+      "quality": "HD",
+      "enabled": true
+    },
+    {
+      "name": "mbc1",
+      "displayName": "MBC 1",
+      "category": "Entertainment",
+      "streams": [
+        "http://mbc1-stream-primary.com/live",
+        "http://mbc1-stream-backup1.com/live",
+        "http://mbc1-stream-backup2.com/live"
+      ],
+      "bitrate": 128000,
+      "volume": 1.0,
+      "quality": "HD",
+      "enabled": true
+    }
+  ]
+}

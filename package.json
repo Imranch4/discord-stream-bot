@@ -1,0 +1,45 @@
+{
+  "name": "discord-stream-bot",
+  "version": "1.0.0",
+  "description": "A Discord streaming bot with multi-channel support and a built-in dashboard.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "start:dashboard": "node server/dashboard.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop all",
+    "pm2:restart": "pm2 restart all",
+    "pm2:logs": "pm2 logs"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@discordjs/voice": "^0.16.0",
+    "ffmpeg-static": "^5.2.0",
+    "winston": "^3.11.0",
+    "express": "^4.18.2",
+    "express-basic-auth": "^1.2.1",
+    "libsodium-wrappers": "^0.7.13",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "pm2": "^5.3.0"
+  },
+  "keywords": [
+  "discord",
+  "bot",
+  "stream",
+  "streaming",
+  "iptv",
+  "music",
+  "video",
+  "live",
+  "channels",
+  "multiple-bots",
+  "discordjs",
+  "nodejs",
+  "youtube",
+  "ffmpeg"
+],
+  "author": "Imranch4",
+  "license": "MIT"
+}
